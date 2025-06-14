@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    color: #fff;
+}
+
+.hero-container{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('./hero.avif');
+    background-size: cover;
+    background-position: center;
+}
+.hero-container h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.hero-container p{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.search{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 0px;
+}
+.search select{
+    width: 30%;
+    padding: 5px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    background-color: transparent;
+    border-right: 1px solid #ccc;
+    color: #666;
+}
+.search input{
+    width: 60%;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #666;
+}
+.location{
+    color: rgba(255, 99, 71, 0.883);
+}
+.search-icon{
+    color: #666;
+    margin-right: 8px;
+}
+
+
+/* Discover diversity */
+
+.content-container{
+    width: 90%;
+    height: 58%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    background-image: url('./discover.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.content-container h2{
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+.content-container p{
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+.explore-btn{
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+}
