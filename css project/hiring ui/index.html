@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiring Ui</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto", sans-serif;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+        .content{
+            width: 600px;
+            height: 400px;
+            padding: 100px 70px;
+        }
+        p{
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #212121;
+        }
+        h1{
+            font-size: 4.5rem;
+            font-weight: 900;
+            color: #1570C8;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <img src="./assets/bg.jpg" alt="">
+    <div class="content">
+        <p>Ways to <br> Streamline Your</p>
+        <h1>Hiring <br> Process</h1>
+    </div>
+</body>
+</html>

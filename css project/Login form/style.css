@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+.container{
+    width: 350px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #ccc;
+}
+.top{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5956CD;
+    background: linear-gradient(90deg, rgba(89, 86, 205, 1) 0%, rgba(179, 81, 194, 1) 100%);
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+}
+form{
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    /* display: flex;
+    flex-direction: column;
+    gap: 20px; */
+}
+.email,.password{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 50px;
+    padding: 0 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+}
+label{
+    font-size: 18px;
+    color: #333;
+    position: relative;
+    top: -5px;
+}
+.forgot{
+    float: right;
+    font-size: 18px;
+    color: #5956CD;
+    margin-right: 20px;
+}
+button{
+    width: 250px;
+    height: 50px;
+    background-color: #5956CD;
+    background: linear-gradient(90deg, rgba(89, 86, 205, 1) 0%, rgba(179, 81, 194, 1) 100%);
+    border: none;
+    margin: 20px 30px 0 30px;
+    cursor: pointer;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.member{
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+a{
+    text-decoration: none;
+    color: #5956CD;
+}
