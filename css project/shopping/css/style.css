@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --primary-color: #226FD0;
+    --secondary-color: #FE8222;
+    --btn-color: #0066CC;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #Fff;
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #41BBEA;
+    padding: 10px 0;
+}
+
+header p{
+    text-transform: capitalize;
+    font-weight: 550;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    /* position: sticky;
+    top: 10px;
+    z-index: 1000; */
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 13px 0px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+section{
+    margin-bottom: 50px;
+}
+.hero{
+    width: 100%;
+    height: 400px;
+    background-color: var(--secondary-color);
+    display: flex;
+}
+.hero-content{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero h2{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px #666;
+    margin-bottom: 30px;
+}
+.hero p{
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px #666;
+}
+
+.hero button{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0066CC;
+    color: #fff;
+}
+
+.hero-image{
+    width: 20%;
+    height: 100%;
+    background-image: url('../assets/hero.png');
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+/* Produts Section */
+.product{
+    width: 100%;
+    height: auto;
+    margin-bottom: 80px;
+}
+.section-tag{
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+.card-container{
+    width: 100%;
+    height: auto;
+    padding: 5px 60px 5px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card{
+    width: 30%;
+    height: 370px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card img{
+    width: 100%;
+    height: 65%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.card img:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.product-name{
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 5px;
+    font-weight: 550;
+}
+.product-price{
+    color: #666;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+.add-cart-btn{
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--btn-color);
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Service Section */
+.service-card{
+    width: 30%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F4F4F4;
+    border-radius: 5px;
+    border:  1px solid #ccc;
+}
+.service-card p{
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+/* Client section */
+.clients{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0px;
+    background-color: var(--secondary-color);
+}
+.clients h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.clients p{
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+/* Membership */
+.membership-con{
+    padding: 0px 30px;
+}
+.member-card{
+    width: 30%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #00BBED;
+    border-radius: 5px;
+}
+.member-card p{
+    font-size: 0.9rem;
+    margin-top: 8px;
+}
+
+/* Blog section */
+.blog,.faq{
+    width: 100%;
+    height: auto;
+    background-color: #F1F1F1;
+    padding: 25px 20px;
+}
+.blog h3{
+    margin-bottom: 15px;
+}
+.new-blog, .new-faq{
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+.new-blog h4{
+    margin-bottom: 10px;
+}
+
+/* Gallery section */
+.gallery-card{
+    width: 30%;
+    height: 250px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+.gallery-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+/* FAQ section */
+.faq{
+    color: #fff;
+    background-color: #313131;
+}
+.faq h3{
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+.faq h4{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+/* Contact section */
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+.contact-form{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact-form input,.contact-form textarea,.contact-form button{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form button{
+    background-color: var(--btn-color);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+/* Footer section */
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #313131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+footer p{
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.icons i{
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 9px;
+}
+.insta{
+    background-color: #E1306C;
+}
+.linkedIn{
+    background-color: #0077B5;
+}
+.snap{
+    background-color: #fffb00c7;
+}
+.twiter{
+    background-color: #1DA1F2;
+}
