@@ -1,2 +1,3 @@
 # CSS Assignment 
-- I have done this all assignments by using only vanila css not any framworks 
+- I have done this all assignments by using only vanila css not any framworks
+- I will make all this responsive by using bootstrap after some while....
